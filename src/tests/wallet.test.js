@@ -194,7 +194,7 @@ describe.skip('4 - Desenvolva um formulário para adicionar uma despesa contendo
   });
 });
 
-describe.skip('5 - Implemente a lógica para preencher as opções do campo "Moedas", buscando as siglas das moedas da API', () => {
+describe('5 - Implemente a lógica para preencher as opções do campo "Moedas", buscando as siglas das moedas da API', () => {
   test('O campo para selecionar em qual moeda será registrada a despesa tem as opções corretas', async () => {
     renderWithRouterAndStore(<Wallet />, '/carteira');
     const currencyInput = await screen.findByRole('combobox', {
