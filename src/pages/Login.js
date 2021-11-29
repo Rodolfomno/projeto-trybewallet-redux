@@ -69,7 +69,6 @@ class Login extends React.Component {
 
   render() {
     const { btnDisable, email, password } = this.state;
-    console.log(btnDisable);
     return (
       <>
         <h1>Login</h1>

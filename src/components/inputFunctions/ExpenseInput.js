@@ -4,9 +4,9 @@ export default function expenseInput(value, handleChange) {
   return (
     <label htmlFor="value-input">
       <input
-        testid="value-input"
+        data-testid="value-input"
         type="number"
-        name="expense"
+        name="value"
         title="Despesas:"
         onChange={ handleChange }
         value={ value }
